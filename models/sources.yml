@@ -1,9 +1,9 @@
 version: 2 
  
 sources: 
- - name: dbt_darqu 
+ - name: tpch 
    database: dev_bootcamp  
-   schema: dbt_darqu  
+   schema: tpch  
    tables: 
      - name: orders_bronze 
        columns: 
